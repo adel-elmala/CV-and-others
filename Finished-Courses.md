@@ -18,7 +18,7 @@
     
 5. [Programming Languages, Part C](https://www.coursera.org/learn/programming-languages-part-c)
     -  introduction to the basic concepts of programming languages, with a strong emphasis on _**OOP programming**_ using _Ruby_ (_**Dynamic**_ type system lang). 
-    -  _IN PROGRESS_
+    -  [certificate](https://www.coursera.org/account/accomplishments/certificate/23PRT3ZG782H)
 
 6. [Machine learning](https://www.coursera.org/learn/machine-learning)
     - broad introduction to machine learning
