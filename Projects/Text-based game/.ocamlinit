@@ -1,0 +1,7 @@
+#directory "_build";;
+#require "yojson";;
+#require "ANSITerminal";;
+#load_rec "state.cmo";;
+open Adventure
+open Command
+open State 

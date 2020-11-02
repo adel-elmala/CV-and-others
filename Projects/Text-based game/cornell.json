@@ -1,0 +1,15 @@
+{
+  "university": "Cornell",
+  "people": [
+    {
+      "first name": "Ezra",
+      "last name": "Cornell",
+      "arrived": 1865
+    },
+    {
+      "first name": "Martha",
+      "last name": "Pollack",
+      "arrived": 2017
+    }
+  ]
+}

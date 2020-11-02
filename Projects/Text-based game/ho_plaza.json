@@ -1,0 +1,84 @@
+{
+	"rooms": [
+		{
+			"id": "ho plaza",
+			"description": "You are on Ho Plaza. Cornell Health is to the southwest. The chimes are playing a concert in the clock tower. Someone tries to hand you a quartercard, but you avoid them.",
+			"exits": [
+				{
+					"name": "southwest",
+					"room id": "health"
+				},
+				{
+					"name": "south west",
+					"room id": "health"
+				},
+				{
+					"name": "Cornell Health",
+					"room id": "health"
+				},
+				{
+					"name": "Gannett",
+					"room id": "health"
+				},
+				{
+					"name": "chimes",
+					"room id": "tower"
+				},
+				{
+					"name": "concert",
+					"room id": "tower"
+				},
+				{
+					"name": "clock tower",
+					"room id": "tower"
+				}
+			]
+		},
+		{
+			"id": "health",
+			"description": "You are at the entrance to Cornell Health. A sign advertises free flu shots. You briefly wonder how long it would take to get an appointment. Ho Plaza is to the northeast.",
+			"exits": [
+				{
+					"name": "northeast",
+					"room id": "ho plaza"
+				},
+				{
+					"name": "north east",
+					"room id": "ho plaza"
+				},
+				{
+					"name": "Ho Plaza",
+					"room id": "ho plaza"
+				}
+			]
+		},
+		{
+			"id": "tower",
+			"description": "You climbed up all 161 steps to the top of McGraw Tower. A Chimesmaster is playing the Jennie McGraw Rag. You feel inspired to ascend higher.",
+			"exits": [
+				{
+					"name": "down",
+					"room id": "ho plaza"
+				},
+				{
+					"name": "back",
+					"room id": "ho plaza"
+				},
+				{
+					"name": "Ho Plaza",
+					"room id": "ho plaza"
+				},
+				{
+					"name": "higher",
+					"room id": "nirvana"
+				}
+			]
+		},
+		{
+			"id": "nirvana",
+			"description": "You have reached a higher level of existence.  There are no more words.",
+			"exits": []
+		}
+	],
+	"start room": "ho plaza"
+}
