@@ -28,3 +28,6 @@
 
     - Another intro to functional programming course ,i took it mainly as it's a prerequisite course for another one that i'm interested in. 
     - _Audit_
+
+8. [Build a Modern Computer from First Principles - From Nand to Tetris (Project-Centered Course)](https://www.coursera.org/learn/build-a-computer?)
+    - [certificate](https://www.coursera.org/account/accomplishments/certificate/8EC6VMRXXBYA)
