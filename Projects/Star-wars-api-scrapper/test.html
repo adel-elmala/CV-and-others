@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Angular 1 </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Syncopate" rel="stylesheet">
+
+    <link rel="stylesheet" href="app.css">
+
+  </head>
+
+  <body>
+
+
+    <header >
+      <img  id="logo" src="imgs/starwars.png" alt="logo">
+    </header>
+
+    <!-- MAIN Layer -->
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-3 col-sm-6" class="custom" id="people" >
+          <a href="#characterstitle"><img src="imgs/char2.jpg" alt="characters" class="img-responsive" ></a>
+          <h2 id="herostext">Heros</h2>
+        </div>
+
+        <div class="col-md-3 col-sm-6" class="custom" id="planets" >
+            <a href="#planetstitle"><img src="imgs/planet2.jpg" alt="planets" class="img-responsive" ></a>
+            <h2 id="planetstext">Planets</h2>
+
+        </div>
+
+        <div class="col-md-3 col-sm-6" class="custom" id="films" >
+            <a href="#filmstitle"><img src="imgs/film1.png" alt="films" class="img-responsive" ></a>
+            <h2 id="filmstext">Films</h2>
+        </div>
+
+        <div class="col-md-3 col-sm-6" class="custom" id="starships" >
+          <a href="#starshipstitle"><img src="imgs/starship2.jpg" alt="starships" class="img-responsive" ></a>
+            <h2 id="starshipstext">Starships</h2>
+
+        </div>
+
+      </div>
+
+    </div>
+    <!-- END  -->
+
+        <!-- alternative for captions  -->
+    <!-- <div  class="captions" class="col-md-3 col-sm-6">
+      <h2>Heros</h2>
+      <h2>Planets</h2>
+      <h2>Films</h2>
+      <h2>Starships</h2>
+
+    </div> -->
+
+<div class="myDiv" ng-app="myApp" ng-controller="myCtrl">
+
+
+      <!-- <h4 ng-repeat="x in peopledata">{{x.name}}</h4>
+      <h6 ng-repeat="l in peopledata">{{l.hair_color}}</h6> -->
+
+<!-- bootstrap lists -->
+
+  <div class="container">
+
+    <h3 style="color:green" id="characterstitle">characters</h3>
+    <div class="row">
+      <div ng-repeat="x in peopledata" class="col-md-6 col-sm-6" >
+            <!--  heading-->
+         <div class="card-header"  >
+           <h5  class="mb-0">{{x.name}}</h5>
+         </div>
+             <!--  content-->
+         <div class="card-body" >
+           <h6><span>Mass: </span>{{x.mass}}</h6>
+           <h6><span>Height: </span>{{x.height}}</h6>
+           <h6><span>Skin color: </span> {{x.skin_color}}</h6>
+           <h6><span>Hair color: </span> {{x.hair_color}}</h6>
+           <h6 ><span>Films: </span>{{x.films}}</h6>
+           <h6><span>Starships: </span>{{x.starships}}</h6>
+           <h6><span>Homewolrd: </span>{{x.homeworld}}</h6>
+         </div>
+     </div>
+    </div>
+
+   <button type="button" class="btn btn-success btn-lg btn-block " >Next</button>
+  </div>
+
+
+
+<!-- end of lists -->
+
+<!--
+    <ul ng-repeat="x in peopledata">
+        <li >{{x.name}}
+           <ul>
+             <li>Mass:{{x.mass}}</li>
+             <li>Height:{{x.height}}</li>
+             <li>Skin color:{{x.skin_color}}</li>
+             <li>Hair color:{{x.hair_color}}</li>
+             <li >Films:{{x.films}}</li>
+             <li>Starships:{{x.starships}}</li>
+             <li>Homewolrd:{{x.homeworld}}</li>
+           </ul>
+         </li>
+      </ul>  -->
+
+      <hr>
+
+      <div class="container">
+        <h3 style="color:green" id="starshipstitle">starships</h3>
+        <div class="row">
+          <div  ng-repeat="y in starshipdata" class="col-md-6 col-sm-6">
+            <!--  heading-->
+             <div class="card-header" role="tab" >
+               <h5  class="mb-0">{{y.name}}</h5>
+             </div>
+             <!-- content -->
+             <div class="card-body" >
+               <h6><span>Manufacturer: </span> {{y.manufacturer}}</h6>
+               <h6><span>Cost: </span>{{y.cost_in_credits}}</h6>
+               <h6><span>Cargo capacity: </span>{{y.cargo_capacity}}</h6>
+               <h6><span>Passengers: </span> {{y.passengers}}</h6>
+               <h6 ><span>Films: </span> {{y.films}}</h6>
+             </div>
+         </div>
+
+        </div>
+
+       <button type="button" class="btn btn-success btn-lg btn-block">Next</button>
+      </div>
+
+
+      <hr>
+      <div class="container">
+
+        <h3 style="color:green" id="planetstitle">planets</h3>
+
+        <div class="card" ng-repeat="z in planetsdata">
+              <!--  heading-->
+           <div class="card-header" role="tab" >
+             <h5  class="mb-0">{{z.name}}</h5>
+           </div>
+               <!--  content-->
+           <div class="card-body" >
+             <h6><span>Gravity: </span>{{z.gravity}}</h6>
+             <h6><span>Population: </span>{{z.population}}</h6>
+             <h6><span>Surface water: </span>{{z.surface_water}}</h6>
+             <h6><span>Terrain: </span>{{z.terrain}}</h6>
+             <h6 ><span>Films: </span>{{z.films}}</h6>
+           </div>
+       </div>
+       <button type="button" class="btn btn-success btn-lg btn-block" onclick="next()">Next</button>
+      </div>
+
+
+      <hr>
+
+      <div class="container">
+        <h3 style="color:green" id="filmstitle">films</h3>
+
+          <div class="card" ng-repeat="w in filmdata">
+                <!--  heading-->
+           <div class="card-header" role="tab" >
+             <h5  class="mb-0">{{w.title}}</h5>
+           </div>
+               <!--  content-->
+           <div class="card-body" >
+             <h6><span>Director: </span>{{w.director}}</h6>
+             <h6><span>producer: </span>{{w.producer}}</h6>
+             <h6><span>Date: </span>{{w.created}}</h6>
+             <h6><span>characters: </span>{{w.characters}}</h6>
+             <h6><span>Starships: </span>{{w.starships}}</h6>
+           </div>
+         </div>
+
+      </div>
+
+
+    </div>
+
+
+    <script src="app2.js" charset="utf-8"></script>
+  </body>
+</html>

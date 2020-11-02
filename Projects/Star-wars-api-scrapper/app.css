@@ -1,0 +1,103 @@
+html,body{
+  margin:0;
+  padding:0;
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-weight: bold;
+}
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 45px;
+  max-width: auto;
+  width:46%;
+
+}
+/*#logo:hover{
+  img:url('imgs/logo.png');
+}*/
+/*.custom{
+  display: inline-block;
+  width: 200px;
+}*/
+.container {
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+    /*border: 1px solid green;*/
+
+
+}
+
+/* resize images */
+.container img {
+    width: 100%;
+    height: auto;
+    position:relative;
+    margin:auto; /* will refer to the position lengths */
+    transition: all 1s;
+
+}
+.container img:hover{
+width: 105%;
+}
+/*.captions h2{
+  position: relative;
+  padding:10px 0;
+  text-align: center;
+  color:red;
+}*/
+.captions h2{
+  position: relative;
+  left:110px;
+  float:left;
+  margin: 0 90px;
+  text-transform: uppercase;
+}
+
+#starshipstext{
+  margin-top: 50px;
+}
+#filmstext{
+  margin-top: 22px;
+
+}
+#herostext,#planetstext{
+  margin-top: 30px;
+}
+.herosection{
+  /*border: 1px solid green;*/
+  width: 100%;
+  height: 100%;
+  margin-top: 60px;
+}
+hr{
+  margin:40px 0;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+button{
+  margin:20px 0;
+}
+.myDiv{
+  margin:40px 0;
+}
+h3{
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-family: 'Syncopate', sans-serif;
+  font-weight: bold;
+}
+span{
+  font-weight: bold;
+  font-family:  'Julius Sans One', sans-serif;
+  color:green;
+  text-align: justify;
+}
