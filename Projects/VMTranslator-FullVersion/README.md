@@ -21,7 +21,7 @@ Handles ALL of the Hack's VM commands
 ```
 
 1. Will Generate FOLDERNAME/FOLDERNAME.asm if First command used
-2. Will Generate FOLDERNAME/FileName.asm if second command used
+2. Will Generate FileName.asm if second command used
 
 
 ### Also Supplied some VM files for testing
