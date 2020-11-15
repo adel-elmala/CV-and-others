@@ -104,6 +104,9 @@
 ### Animation Controls
 **_Left Click and Choose_**
 
+### Run it using Makefile
+`make`
+
 ### Compile 
 
 `g++ -o out main.cpp ./srcs/imageloader.cpp ./srcs/glm.cpp -lGL -lglut -lGLU -lm -w`
