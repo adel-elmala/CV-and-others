@@ -33,5 +33,5 @@ class BMI():
         return bmi,self.identifyCategory(bmi)
 
 
-b = BMI()
-print(b.notify(65,190))
+# b = BMI()
+# print(b.notify(65,190))
