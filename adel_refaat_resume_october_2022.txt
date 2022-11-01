@@ -1,0 +1,108 @@
+﻿Adel Elmala
+6th of october, Egypt | P: +20 01090332213 | adel.elmala2025@gmail.com 
+ linkedin.com/in/adel-elmala | github.com/adel-elmala
+
+
+SUMMARY        
+
+
+
+
+A Fresh Graduate Looking for an entry level job as software Engineer , With a particular interest in 3D computer graphics (E.g. render engines, ray tracers , rasterizers ) , and Image Processing. 
+Using C/C++, OpenGL , I’m open to learn new languages , techs, and tools.
+
+
+EDUCATION        
+
+
+
+
+Cairo University        Giza, EG
+Bachelor of Engineering        June 2021
+Systems & Biomedical Engineering 
+Cumulative GPA: 3.25/4.0 ; Grade: Very Good 
+Relevant Coursework: Computer Graphics; Data Structures & Algorithms; Image processing; 
+                                        Database management system 
+
+
+GRADUATION PROJECT        
+
+
+
+
+Neural Model Optimization Tool         2021
+* An automated optimization tool to help save time and resources in calibrating neural computational models to experimental measurements.
+* Designed and implemented the back-end layer using Python and NEURON API, reading in the neuron model, extracting information about the model, simulating experimentation and computing characteristic features to pass to the next module in the tool pipeline.
+* Grade : Distinctive 
+* GitHub Repo: https://github.com/ForthePareto/SpikOpt
+
+
+PERSONAL PROJECTS        
+
+
+
+
+Ray Tracer          2022
+* Built a ray tracer from first principles using no external libraries other than the one that will take the final pixel data and save it on disk in a PNG format.
+* Used C++ and stbImage library for png encoding.
+* GitHub Repo: https://github.com/adel-elmala/rayTracer
+Rasterizer                2022
+* Built a simple rasterizer from the ground up.
+* Used C++ and SDL2 library to handle windowing and events.
+* GitHub Repo: https://github.com/adel-elmala/rasterizer 
+Small image processing Library        2021
+* Optimized mini image processing libary , that handle gaussian bluring , alpha blending, thresholding.
+*  implemented from scratch using C, Pthreads, And Intel‐intrinsics (SIMD) ,and  stbImage lib.
+*  GitHub Repo : https://github.com/adel-elmala/optimization-playGround        
+        16‐Bit von neumann architecture Assembler                                                                             2021
+* Trasnlates from Hack’s assembly instuctions to hack’s 16‐bit Machine language
+* the project was part of a coursera course, used Python.
+* GitHub Repo: https://github.com/adel-elmala/CV-and-others/tree/main/Projects/Assembler
+JPEG decoding Stepper                                                                                                                                  2021 
+* Shows the different stages of Decoding JPEG Files
+* Used Python , and QT for the GUI
+* GitHub Repo: https://github.com/adel-elmala/CV-and-others/tree/main/Projects/JPEG-Decoding-stepper
+More Projects : https://github.com/adel-elmala/CV-and-others/tree/main/Projects
+CERTIFICATES And MOOCS
+
+
+
+
+Build a Modern Computer from First Principles ‐ Part 1                                                                             2020
+* Build a modern computer system, from the ground up from constructing elementary logic gates all the way through creating a fully functioning general purpose computer).
+Certificate Link: https://www.coursera.org/account/accomplishments/certificate/8EC6VMRXXBYA
+
+
+Machine Learning                                                                                                                                            2020
+* Machine Learning Basics (Supervised/Unsupervised learning ‐ Neural Networks ... )
+Certificate Link: https://www.coursera.org/account/accomplishments/certificate/C8832L5N3XY3
+
+
+Programming Languages part B                                                                                                                    2020 
+* Introduction to the basic concepts of programming languages, with a strong emphasis on functional programming using Racket (Dynamic type system language).
+Certificate Link: https://www.coursera.org/account/accomplishments/certificate/TPZJ35EZUT6Z
+
+
+Programming Languages part C                                                                                                                    2020
+* Introduction to the basic concepts of programming languages, with a strong emphasis on OOP programming using Ruby (Dynamic type system language).
+* Certificate Link: https://www.coursera.org/account/accomplishments/certificate/23PRT3ZG782H
+
+
+More Certificates: https://github.com/adel-elmala/CV-and-others/blob/main/Finished-Courses.md
+
+
+SKILLS
+
+
+Technical Skills: 
+* Computer Graphics                                
+* C , C++ , Python.
+* OpenGL (3.3+)                                        
+* Multi-Threading (pThreads)
+* Linux programming environment                
+* GNU ToolChain (GCC / Make )
+* Bash                                                
+* Git (GitHub)
+Languages:
+* Arabic: Fluent. 
+* English: intermediate.
