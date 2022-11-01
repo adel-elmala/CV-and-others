@@ -8,7 +8,7 @@ SUMMARY
 
 
 
-A Fresh Graduate Looking for an entry level job as software Engineer , With a particular interest in 3D computer graphics (E.g. render engines, ray tracers , rasterizers ) , and Image Processing. 
+A Fresh Graduate Looking for an entry level job as software Engineer , With a particular interest in 3D computer graphics (E.g. render engines, ray tracing , rasterizing ) , and Image Processing. 
 Using C/C++, OpenGL , I’m open to learn new languages , techs, and tools.
 
 
@@ -22,7 +22,7 @@ Bachelor of Engineering        June 2021
 Systems & Biomedical Engineering 
 Cumulative GPA: 3.25/4.0 ; Grade: Very Good 
 Relevant Coursework: Computer Graphics; Data Structures & Algorithms; Image processing; 
-                                        Database management system 
+                                        Database management system (DB)
 
 
 GRADUATION PROJECT        
@@ -51,12 +51,12 @@ Rasterizer                2022
 * Used C++ and SDL2 library to handle windowing and events.
 * GitHub Repo: https://github.com/adel-elmala/rasterizer 
 Small image processing Library        2021
-* Optimized mini image processing libary , that handle gaussian bluring , alpha blending, thresholding.
-*  implemented from scratch using C, Pthreads, And Intel‐intrinsics (SIMD) ,and  stbImage lib.
+* Optimized mini image processing library that handles gaussian blurring , alpha blending, thresholding.
+*  implemented from scratch using C, Pthreads, And Intel‐intrinsics (SIMD) ,and  stbImage library.
 *  GitHub Repo : https://github.com/adel-elmala/optimization-playGround        
         16‐Bit von neumann architecture Assembler                                                                             2021
-* Trasnlates from Hack’s assembly instuctions to hack’s 16‐bit Machine language
-* the project was part of a coursera course, used Python.
+* Translates from Hack’s assembly instructions to hack’s 16‐bit Machine language
+* The project was part of a coursera course, used Python.
 * GitHub Repo: https://github.com/adel-elmala/CV-and-others/tree/main/Projects/Assembler
 JPEG decoding Stepper                                                                                                                                  2021 
 * Shows the different stages of Decoding JPEG Files
@@ -95,14 +95,17 @@ SKILLS
 
 
 Technical Skills: 
-* Computer Graphics                                
-* C , C++ , Python.
-* OpenGL (3.3+)                                        
-* Multi-Threading (pThreads)
+* Computer Graphics / 3d graphics / 3d Rendering                                
+* C , C++ / c++ programming , Python.
+* Open GL (3.3+) (Open Graphic Library)
+* GPU shading languages GLSL                                
+* Asynchronous programming, Multi-Threading (pThreads)
 * Linux programming environment                
 * GNU ToolChain (GCC / Make )
 * Bash                                                
-* Git (GitHub)
+* Version control: Git (GitHub)
+* Linear Algebra , math / mathematics
+* Object Oriented Programming (OOP)
 Languages:
 * Arabic: Fluent. 
 * English: intermediate.
